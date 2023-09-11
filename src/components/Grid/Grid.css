@@ -1,0 +1,25 @@
+.grid-wrapper{
+    max-width: 450px;
+}
+
+.grid{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.turn-highlight{
+    color: white;
+}
+
+.reset-btn{
+    color: white;
+    background-color:var(--resetGreen);
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
